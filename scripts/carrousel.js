@@ -9,7 +9,5 @@ setInterval(() => {
     }
 
     carousel.style.backgroundImage = `url(../src/img/hotel${count}.jpg)`
-
-    console.log(count)
 }, 5000)
 console.log(`count: ${count}`)
