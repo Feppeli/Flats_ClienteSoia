@@ -10,7 +10,7 @@
 }
 
 
-.direito{
+.direitoBox{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +20,7 @@
 
 }
 
-.direito a{
+.direitoBox a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,21 +28,21 @@
     max-width: 30%;
 }
 
-.direito img{
+.direitoBox img{
     width: 100%;
 }
 
 @media(max-width: 500px){
-    .direito {
+    .direitoBox {
         flex-direction: column;
 
         align-items: center;
     }
-    .direito a{
+    .direitoBox a{
         max-width: 90%;
     }
 
-    .direito img{
+    .direitoBox img{
         margin: 10px;
     }
 } 
