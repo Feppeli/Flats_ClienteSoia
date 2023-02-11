@@ -1,0 +1,18 @@
+#menu{
+    width: 100%;
+    min-height: 800px;
+    background: var(--cor-azul);
+
+    position: fixed;
+
+
+
+    z-index: 2;
+/*     display: none; */
+}
+
+#menu a{
+    position: fixed;
+    z-index: 4;
+    color: #fff;
+}
