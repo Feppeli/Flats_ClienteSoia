@@ -16,6 +16,10 @@ nav a:hover{
   color: #1ab5c7;
 }
 
+.nav-brand img {
+  width: 75px;
+}
+
 nav button{
   border: none;
 }
