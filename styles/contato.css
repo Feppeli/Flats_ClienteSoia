@@ -5,6 +5,10 @@
     justify-content: space-around;
 }
 
+#contatoDireito{
+    padding-bottom: 20px;
+}
+
 .brandContato img{
     margin-top: 20px;
     margin-bottom: 20px;
