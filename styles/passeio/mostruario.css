@@ -25,6 +25,17 @@
     max-width: 100%;
 }
 
+@media(max-width:1000px){
+    .boxPasseio{
+        flex-direction: column;
+    }
+    .boxPasseio img{
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
+
+
 .box > div{
     margin-top: 15px;
     display: flex;
