@@ -76,13 +76,13 @@
                 <h2>Faça uma simulação de quanto você pode ganhar com seu negócio</h2>
                 <form action="">
                     <div class="inputs">
-                        <input type="text" placeholder="Nome">
-                        <input type="text" placeholder="Local do imóvel">
-                        <input type="text" placeholder="Tipo de acomodação">
+                        <input type="text" placeholder="Nome" id="nome">
+                        <input type="text" placeholder="Local do imóvel" id="endereco">
+                        <input type="text" placeholder="Tipo de acomodação" id="tipo">
                     </div>
                     <div class="inputs">
-                        <input type="number" placeholder="Telefone">
-                        <select name="" id="">
+                        <input type="number" placeholder="Telefone" id="numero">
+                        <select name="" id="quantidade">
                             <option value="">Quantidade de apartamentos *</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -90,8 +90,8 @@
                             <option value="4">4</option>
                             <option value="mais de 5">mais de 5</option>
                         </select>
-                        <input type="email" placeholder="E-mail">
-                        <button>Simular</button>
+                        <input type="email" placeholder="E-mail" id="email">
+                        <button type="button" onclick="simular()">Simular</button>
                     </div>
 
                 </form>
@@ -282,5 +282,6 @@
 <script src="../dist/js/bootstrap.min.js"></script>
 <script src="../dist/js/bootstrap.js"></script>
 <script src="../scripts/menuPages.js"></script>
+<script src="../scripts/whatsapp/alugue.js"></script>
 
 </html>
