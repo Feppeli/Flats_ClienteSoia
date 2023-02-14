@@ -16,6 +16,9 @@
     padding: 15px;
     margin: 15px;
 }
+.fa-whatsapp:hover{
+    color: var(--cor-azul);
+}
 
 
 .boxPasseio img{
