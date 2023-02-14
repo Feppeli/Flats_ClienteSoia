@@ -10,4 +10,3 @@ setInterval(() => {
 
     carousel.style.backgroundImage = `url(../src/img/hotel${count}.jpg)`
 }, 5000)
-console.log(`count: ${count}`)

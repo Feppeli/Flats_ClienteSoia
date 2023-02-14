@@ -70,26 +70,26 @@
             <div id="entradaSaida">
                 <div>
                     <p>Entrada:</p>
-                    <input type="date">
+                    <input type="date" id="dataEntrada">
                 </div>
                 <div>
                     <p>Saida</p>
-                    <input type="date">
+                    <input type="date" id="dataSaida">
                 </div>
             </div>
 
             <div id="qtdPessoas">
                 <div>
                     <p>Adultos</p>
-                    <input type="number">
+                    <input type="text" id="adultos">
                 </div>
                 <div>
                     <p>Crianças</p>
-                    <input type="number">
+                    <input type="text" id="criancas">
                 </div>
             </div>
 
-            <button>Faça sua reserva</button>
+            <button id="reservaButton" onclick="reserva()">Faça sua reserva</button>
         </div>
     </section>
 
@@ -328,4 +328,5 @@
 <script src="https://kit.fontawesome.com/bb2d553a57.js" crossorigin="anonymous"></script>
 <script src="./scripts/carrousel.js"></script>
 <script src="scripts/menu.js"></script>
+<script src="scripts/whatsapp/index.js"></script>
 </html>
