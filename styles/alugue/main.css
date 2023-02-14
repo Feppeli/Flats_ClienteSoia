@@ -18,3 +18,15 @@ main{
     font-size: 56px;
 }
 
+@media(max-width:850px){
+    #headerMain h1{
+        font-size: 38px;
+    }
+}
+
+@media(max-width: 500px){
+    #headerMain h1{
+        font-size: 32px;
+    }
+}
+
