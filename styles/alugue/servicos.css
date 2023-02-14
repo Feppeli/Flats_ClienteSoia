@@ -4,12 +4,19 @@
 
     justify-content: space-evenly;
 }
+@media(max-width: 700px){
+    #servicos{
+        flex-direction: column;
+    }
+}
 .servicosBoxs{
     display: flex;
-    align-items: center;
+
     padding-top: 20px;
     padding-bottom: 20px;
+    min-height: 160px;
     max-width: 500px;
+
 }
 
 @media(max-width:500px){
@@ -22,7 +29,7 @@
     margin: 0;
 }
 
-.icon{
+.icon i{
     color: var(--cor-azul-claro);
     background: #f4f4f4;
     margin-right: 35px;
